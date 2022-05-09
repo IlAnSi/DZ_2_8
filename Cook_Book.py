@@ -44,7 +44,7 @@ with open(file_, encoding="utf-8") as file_:
     for line in file_:
         read_cook_book(file_, cook_book)
 
-dish_order = ['Омлет', 'Фахитос']
+dish_order = ['Омлет', 'Фахитос', 'Утка по-пекински']
 pers_count = 3
 
 order = get_shop_list_by_dishes(dish_order, pers_count)
